@@ -18,9 +18,13 @@ setup_requires = parse_requirements(
     os.path.join(ROOT, 'requirements', 'base.txt'), session='hack')
 setup_requires = [str(ir.req) for ir in setup_requires]
 
+print(setup_requires)
+
 tests_requires = [
     'pytest==3.0.7',
 ]
+
+setup_requires = []
 
 setup(
     name="cielo",
