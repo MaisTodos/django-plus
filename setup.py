@@ -27,9 +27,9 @@ tests_requires = [
 setup_requires = []
 
 setup(
-    name="cielo",
+    name="MaisTodos Django",
     version=__VERSION__,
-    author="Stored",
+    author="MaisTodos",
     author_email="guilherme.tavares@maistodos.com.br",
     url="https://github.com/MaisTodos/django-plus",
     package_dir={'': 'src'},
