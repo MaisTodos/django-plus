@@ -2,6 +2,5 @@ django-model-utils==3.0
 jsonfield==2.0.2
 JSON-log-formatter==0.2.0
 inlinestyler==0.2.5
-git+https://github.com/darklow/django-suit.git@v2
 django-admin-rangefilter==0.5.4
 django-import-export==2.0.2

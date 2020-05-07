@@ -5,6 +5,7 @@
 # django-localflavor>=1.4.1,<1.5
 # httpretty==0.8.14
 
+git+https://github.com/darklow/django-suit.git@v2
 Django>=2.0,<3.0
 
 pytest==4.3.0
