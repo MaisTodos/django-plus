@@ -32,7 +32,7 @@ setup(
     packages=find_packages('src'),
     description='Django Plus',
     long_description=open(os.path.join(ROOT, 'README.md'), 'r', encoding='utf8').read(),
-    install_requires=install_requires,
+    install_requires=setup_requires,
     setup_requires=setup_requires,
     extras_require={
         'tests': tests_requires,
